@@ -20,7 +20,6 @@ public class Jni1Activity extends BaseActivity
     protected void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
-
         tvFirstContent.setText(stringFromJNI());
     }
 
