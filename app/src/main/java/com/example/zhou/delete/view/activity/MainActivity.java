@@ -2,7 +2,6 @@ package com.example.zhou.delete.view.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 import android.widget.Button;
 
 import com.example.zhou.delete.R;
@@ -26,7 +25,7 @@ public class MainActivity extends BaseActivity
     @Override
     public int getLayoutId()
     {
-        Log.i("TTTTTT_", "MainActivity-->getLayoutId()");
+
         return R.layout.activity_main;
     }
 
@@ -34,7 +33,7 @@ public class MainActivity extends BaseActivity
     @OnClick(R.id.btn_jni_1)
     public void onViewClicked()
     {
-        Intent i = new Intent(MainActivity.this,Jni1Activity.class);
+        Intent i = new Intent(MainActivity.this,IndicatorActivity.class);
         startActivity(i);
     }
     
